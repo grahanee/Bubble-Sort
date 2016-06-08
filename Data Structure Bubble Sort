@@ -1,0 +1,111 @@
+package quadraticabovecomplexequal;
+
+/**
+ *
+ * @author grahani
+ */
+import java.util.*;
+import java.lang.Math;
+
+
+
+
+public class QuadraticAboveComplexEqual {
+
+   
+    public static void main(String[] args) {
+       
+         
+        int a;
+        int b;
+        int c;
+        int d;
+        int t;
+        
+        Scanner number = new Scanner (System.in);
+        
+        System.out.println("insert first number");
+        a = number.nextInt();
+        System.out.println("insert second number");
+        b = number.nextInt();
+        System.out.println("insert third number");
+        c = number.nextInt();     
+        System.out.println("insert fourth number");
+        d = number.nextInt();
+        
+        //from smallest to biggest number
+        //equal is too overwrite
+        
+        if (a>b){
+            
+            t=a;a=b;b=t;
+            
+            
+            
+         }
+        
+        if (b>c){
+            
+            t=b;b=c;c=t;
+          
+            
+            
+        }
+         if(c>d)
+         {
+             
+         
+          t=c;c=d;d=t;
+             
+             
+             
+             
+         }
+         
+           if (a>b){
+            
+            t=a;a=b;b=t;
+            
+            
+            
+         }
+        if (b>c){
+            
+            t=b;b=c;c=t;
+          
+            
+            
+        }
+         if(c>d)
+         {
+             
+         
+          t=c;c=d;d=t;
+  
+      
+         
+         
+         }
+       if (a>b){
+            
+            t=a;a=b;b=t;
+       }
+         
+         
+         
+         
+         
+        
+        
+        System.out.println("Smallest number: " +a);
+        System.out.println("Smaller number: " +b);
+        System.out.println("Larger number: " +c);
+        System.out.println("Largest number: "+d);
+        
+        
+         }
+        
+        
+        
+    }
+
